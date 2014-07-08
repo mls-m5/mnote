@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mls.mnote.MainActivity$PlaceholderFragment" >
+
+    <!--
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    -->
+
+    <com.mls.mnote.NoteView
+        android:id="@+id/noteView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/noteButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteButton1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteButton2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteButton3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteButton4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteButton5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteButton6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteButton7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/eraseButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="erase"
+
+            android:src="@drawable/ic_erase" />
+
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteValueButton1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteValueButton2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteValueButton3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteValueButton4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteValueButton5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <com.mls.mnote.NoteButton
+            android:id="@+id/noteValueButton6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/noteValueButtonTriad"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="3" />
+        </LinearLayout>
+</LinearLayout>
